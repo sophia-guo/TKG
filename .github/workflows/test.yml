@@ -1,4 +1,4 @@
-name: "run-aqa test against build OpenJ9 JDK directly"
+name: "run-aqa test against personal git reop and branch automatically"
 on: # rebuild any PRs and main branch changes
    push:
 
