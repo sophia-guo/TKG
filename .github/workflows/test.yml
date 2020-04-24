@@ -13,5 +13,5 @@ jobs:
           version: '11'
           jdksource: 'github-hosted'
           build_list: 'openjdk'
-          target: '_jdk_math'
+          target: '_jdk_custom'
           usePersonalRepo: true
