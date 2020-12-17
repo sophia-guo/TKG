@@ -127,7 +127,7 @@ my %base = (
 	osgi => {
 		url => ' https://mirror.umd.edu/eclipse/equinox/drops/S-4.18M1a-202010120320/org.eclipse.osgi_3.16.100.v20200904-1304.jar',
 		fname => 'org.eclipse.osgi_3.16.100.v20200904-1304.jar',
-		sha1 => 'e0c1c2fa5e5f520d2347f9e7a7d2873e3b96bab3'
+		sha1 => '55df4256e88dbe8795fea9f6ac50b2f8e0215eb1'
 	});
 
 my @dependencies = split(',', $dependencyList); 
