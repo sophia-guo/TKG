@@ -130,16 +130,16 @@ my %base = (
 		sha1 => '7ddb312f386b799d6e004d193a01c50169bf69f3'
 	},
 	jtreg_6_1 => {
-		url => 'https://ci.adoptopenjdk.net/job/dependency_pipeline/lastSuccessfulBuild/artifact/jtreg/jtreg-6+1.tar.gz',
+		url => 'https://ci.adoptopenjdk.net/view/work-in-progress/job/GetNode/90/artifact/jtreg-6+1.tar.gz',
 		fname => 'jtreg-6+1.tar.gz',
-		shaurl => 'https://ci.adoptopenjdk.net/job/dependency_pipeline/lastSuccessfulBuild/artifact/jtreg/jtreg-6+1.tar.gz.sha256sum.txt',
+		shaurl => 'https://ci.adoptopenjdk.net/view/work-in-progress/job/GetNode/90/artifact/jtreg-6+1.tar.gz.sha256sum.txt',
 		shafn => 'jtreg-6+1.tar.gz.sha256sum.txt',
 		shaalg => '256'
 	},
 	jtreg_5_1_b01 => {
-		url => 'https://ci.adoptopenjdk.net/job/dependency_pipeline/lastSuccessfulBuild/artifact/jtreg/jtreg5.1-b01.tar.gz',
+		url => 'https://ci.adoptopenjdk.net/view/work-in-progress/job/GetNode/90/artifact/jtreg5.1-b01.tar.gz',
 		fname => 'jtreg5.1-b01.tar.gz',
-		shaurl => 'https://ci.adoptopenjdk.net/job/dependency_pipeline/lastSuccessfulBuild/artifact/jtreg/jtreg5.1-b01.tar.gz.sha256sum.txt',
+		shaurl => 'https://ci.adoptopenjdk.net/view/work-in-progress/job/GetNode/90/artifact/jtreg5.1-b01.tar.gz.sha256sum.txt',
 		shafn => 'jtreg5.1-b01.tar.gz.sha256sum.txt',
 		shaalg => '256'
 	},
