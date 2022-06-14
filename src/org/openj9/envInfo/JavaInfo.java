@@ -35,6 +35,7 @@ public class JavaInfo {
             Path alpine = Paths.get("/etc/alpine-release");
             if (Files.exists(alpine)) {
                 spec = "alpine-linux";
+                System.out.println("alpine os.name is " + osName + "\n");
             } else {
                 spec = "linux";
             }
