@@ -64,6 +64,9 @@ public class EnvDetector {
 		String JavaVersionValue = "DETECTED_JAVA_VERSION=" + javaVersion + "\n";
 		String ReleaseValue = "DETECTED_RELEASE_INFO=" + releaseInfo + "\n";
 		String TESTFLAGvalue = "DETECTED_TEST_FLAG=" + testFlag + "\n";
+		System.out.println("****************************** JAVA INFO ******************************");
+		System.out.println(JavaVersionValue);
+		System.out.println("**************************************************************************\n");
 
 		/**
 		 * autoGenEnv.mk file will be created to store auto detected java info.

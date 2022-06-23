@@ -134,6 +134,7 @@ public class JavaInfo {
         if (javaVersion.startsWith("1.")) {
             javaVersion = javaVersion.substring(2);
         }
+        System.out.println("System.getProperty('java.version')=" + javaVersion + "\n");
         int dotIndex = javaVersion.indexOf('.');
         int dashIndex = javaVersion.indexOf('-');
         try {
