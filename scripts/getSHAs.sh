@@ -57,10 +57,6 @@ timestamp() {
 getSHAs()
 {
 	echo "Check shas in $TEST_ROOT and store the info in $SHAs_FILE"
-	ls -al "$TEST_ROOT"
-	cd "$TEST_ROOT"/openj9 || exit
-	ls -al "$TEST_ROOT"/openj9
-
 	if [ ! -e "${SHAs_FILE}" ]; then
 		echo "touch $SHAs_FILE"
 		touch "$SHAs_FILE"
