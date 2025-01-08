@@ -170,9 +170,9 @@ public class JavaInfo {
         String vendorLC = vendor.toLowerCase();
         if (vendorLC.contains("adoptopenjdk")) {
             return "adoptopenjdk";
-        } else if (vendorLC.contains("eclipse")) {
+        } else if (vendorLC.contains("eclipse adoptium")) {
             return "eclipse";
-        } else if (vendorLC.contains("ibm") || vendorLC.contains("international business machines corporation")) {
+        } else if (vendorLC.contains("ibm") || vendorLC.contains("international business machines corporation") || vendorLC.contains("eclipse openj9")) {
             return "ibm";
         } else if (vendorLC.contains("alibaba")) {
             return "alibaba";
